@@ -1,0 +1,131 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #e6e6e6, #bfc6d0);
+    color: #333333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 20px;
+    text-align: center;
+    height: auto;
+}
+
+b {
+    color: #5b7a99; /* Muted blue */
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #444444;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+hr {
+    width: 80%;
+    border: none;
+    height: 2px;
+    background: linear-gradient(90deg, #a1a1a1, #d4d4d4);
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+    color: #555555;
+    font-weight: 300;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+section {
+    margin: 30px 0;
+    width: 80%;
+    max-width: 900px;
+    text-align: left;
+}
+
+section h3 {
+    font-size: 2rem;
+    color: #666666;
+    margin-bottom: 15px;
+    text-align: left;
+    font-weight: 600;
+}
+
+section p {
+    font-size: 1.2rem;
+    color: #555555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+    color: #777777;
+}
+
+/* Styling for personal links */
+.person-box {
+    background: linear-gradient(135deg, #d0d7de, #a1a9b3);
+    color: #333333;
+    padding: 15px 40px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+    margin: 20px 0;
+}
+
+.person-box:hover {
+    background: linear-gradient(135deg, #bcc3c9, #90979e);
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.person-box:active {
+    background: #8a8f96;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transform: translateY(2px);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.back-button {
+    background: linear-gradient(135deg, #b8bec4, #9299a1);
+    color: #333333;
+    padding: 10px 30px;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.back-button:hover {
+    background: linear-gradient(135deg, #90979e, #7f858c);
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.back-button:active {
+    background: #70757b;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transform: translateY(2px);
+}
