@@ -12,6 +12,9 @@ body {
     text-align: center;
     height: auto;
 }
+ul {
+    list-style-type: square;
+}
 
 b {
     color: #15528e; /* Muted blue */
