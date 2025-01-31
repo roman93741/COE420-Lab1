@@ -2,7 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, #e6e6e6, #bfc6d0);
+    background: linear-gradient(135deg, #a7abb2, #d5dbe2);
     color: #333333;
     display: flex;
     flex-direction: column;
@@ -14,13 +14,13 @@ body {
 }
 
 b {
-    color: #5b7a99; /* Muted blue */
+    color: #15528e; /* Muted blue */
 }
 
 h1 {
     font-size: 3rem;
     margin-bottom: 20px;
-    color: #444444;
+    color: #0a284c;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: 700;
@@ -31,14 +31,14 @@ hr {
     width: 80%;
     border: none;
     height: 2px;
-    background: linear-gradient(90deg, #a1a1a1, #d4d4d4);
+    background: linear-gradient(90deg, #658fb9, #485e96);
     margin: 20px 0;
 }
 
 h2 {
     font-size: 1.8rem;
     margin-bottom: 25px;
-    color: #555555;
+    color: #665f5f;
     font-weight: 300;
     text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
 }
@@ -52,7 +52,7 @@ section {
 
 section h3 {
     font-size: 2rem;
-    color: #666666;
+    color: #3f3636;
     margin-bottom: 15px;
     text-align: left;
     font-weight: 600;
@@ -60,7 +60,7 @@ section h3 {
 
 section p {
     font-size: 1.2rem;
-    color: #555555;
+    color: #4b3e3e;
     line-height: 1.6;
     margin-bottom: 20px;
     text-align: left;
