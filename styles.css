@@ -16,6 +16,11 @@ ul {
     list-style-type: square;
 }
 
+body {
+    font-variant-ligatures: discretionary-ligatures;
+}
+
+
 b {
     color: #15528e; /* Muted blue */
 }
